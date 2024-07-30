@@ -1,0 +1,2 @@
+genome canFam4
+trackDb canFam4/trackDb.txt
