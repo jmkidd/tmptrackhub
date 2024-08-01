@@ -1,2 +1,5 @@
 genome canFam4
 trackDb canFam4/trackDb.txt
+
+genome GCA_905319855.2
+trackDb GCA_905319855.2/trackDb.txt
