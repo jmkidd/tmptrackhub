@@ -1,5 +1,5 @@
 hub KiddLabTmpData
-shortLabel Track Data Hub for Kidd Lab SegDups 
+shortLabel Track Data Hub for Kidd Lab tmp 
 longLabel University of Michigan Medical School, Human Genetics, Kidd Lab Dog Segmental Duplications
 genomesFile dog-tracks.genome.txt
 email jmkidd@umich.edu
