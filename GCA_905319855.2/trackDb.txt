@@ -1,6 +1,6 @@
 track numtsassem
 bigDataUrl mCanLor1.2.numts-assem.bb
-shortLabel numtsassem
+shortLabel NUMT Loi
 longLabel Merged NUMTs loci
 type bigBed 4
 visibility hide
@@ -8,7 +8,7 @@ itemRgb off
 
 track numtshsp
 bigDataUrl mCanLor1.2.numts-hsp.bb
-shortLabel numtshsp
+shortLabel NUMT HSPs
 longLabel NUMTs HSP segments
 type bigBed 4
 visibility hide
