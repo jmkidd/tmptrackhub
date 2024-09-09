@@ -3,3 +3,12 @@ trackDb canFam4/trackDb.txt
 
 genome GCA_905319855.2
 trackDb GCA_905319855.2/trackDb.txt
+
+genome canFam3
+trackDb canFam3/trackDb.txt
+
+genome canFam5
+trackDb canFam5/trackDb.txt
+
+genome canFam6
+trackDb canFam6/trackDb.txt

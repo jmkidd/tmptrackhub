@@ -1,0 +1,15 @@
+track numts
+bigDataUrl canFam3.1.numts-assem.bb
+shortLabel NUMT Loci
+longLabel Merged NUMTs loci
+type bigBed 4
+visibility hide
+itemRgb off
+
+track numtshsp
+bigDataUrl canFam3.1.numts-hsp.bb
+shortLabel NUMT HSPs
+longLabel NUMTs HSP segments
+type bigBed 4
+visibility hide
+itemRgb off
