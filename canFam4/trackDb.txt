@@ -13,3 +13,11 @@ longLabel NUMTs HSP segments
 type bigBed 4
 visibility hide
 itemRgb off
+
+track mergedSV
+bigDataUrl mp-SV.bb
+shortLabel Merged SVs
+longLabel Merged SVs Manta + Paragraph
+type bigBed 9
+visibility hide
+itemRgb on
