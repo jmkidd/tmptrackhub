@@ -21,3 +21,11 @@ longLabel Merged SVs Manta + Paragraph
 type bigBed 9
 visibility hide
 itemRgb on
+
+track OhanaSVHits
+bigDataUrl Ohana_SV_hits.bb
+shortLabel OhanaSV
+longLabel Ohana SV Hits
+type bigBed 9
+visibility hide
+itemRgb on
