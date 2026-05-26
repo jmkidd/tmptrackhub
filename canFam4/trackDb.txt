@@ -33,6 +33,8 @@ itemRgb on
 
 track Wolf41dvg
 bigDataUrl Wolf41.dvg.1000.bw
+graphType points
+alwaysZero on
 shortLabel Wolf41
 longLabel Wolf41 Divergence
 type bigWig
@@ -42,6 +44,8 @@ color 255,0,0
 
 track VD40dvg
 bigDataUrl VD40.dvg.1000.bw
+graphType points
+alwaysZero on
 shortLabel VD40
 longLabel VD40 Divergence
 type bigWig
