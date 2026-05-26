@@ -29,3 +29,23 @@ longLabel Ohana SV Hits
 type bigBed 9
 visibility hide
 itemRgb on
+
+
+track Wolf41dvg
+bigDataUrl Wolf41.dvg.1000.bw
+shortLabel Wolf41
+longLabel Wolf41 Divergence
+type bigWig
+visibility full
+autoScale on
+color 255,0,0
+
+track VD40dvg
+bigDataUrl VD40.dvg.1000.bw
+shortLabel VD40
+longLabel VD40 Divergence
+type bigWig
+visibility full
+autoScale on
+color 255,165,0
+
