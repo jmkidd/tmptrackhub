@@ -53,3 +53,13 @@ visibility full
 autoScale on
 color 255,165,0
 
+track VD40_sel
+bigDataUrl VD40_vs_Wolf41.1000.bw
+graphType bar
+alwaysZero on
+shortLabel VD40 Selection
+longLabel VD40 Selection
+type bigWig
+visibility full
+autoScale on
+color 0,0,0
