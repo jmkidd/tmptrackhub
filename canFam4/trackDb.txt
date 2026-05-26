@@ -40,7 +40,7 @@ shortLabel Wolf VD
 longLabel Wolf and VD Diversity
 visibility full
 
-    track Wolf41dvg
+    track Wolf41dvg_join
     type bigWig
     parent VDMW
     bigDataUrl Wolf41.dvg.1000.bw
@@ -52,7 +52,7 @@ visibility full
     autoScale on
     color 255,0,0
 
-    track VD40dvg
+    track VD40dvg_join
     type bigWig
     parent VDMW
     bigDataUrl VD40.dvg.1000.bw
