@@ -32,32 +32,34 @@ itemRgb on
 
 
 track VDMW
-parent multiWig
+type bigWig
+container multiWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
 shortLabel Two BigWigs
 longLabel Plot showing two bigWig signals simultaneously
-type multiWig 0 1000
-aggregate transparentOverlay
-container multiWig
 visibility full
 
     track Wolf41dvg
+    type bigWig
+    parent VDMW
     bigDataUrl Wolf41.dvg.1000.bw
     graphType points
     alwaysZero on
     shortLabel Wolf41
     longLabel Wolf41 Divergence
-    type bigWig
     visibility full
     autoScale on
     color 255,0,0
 
     track VD40dvg
+    type bigWig
+    parent VDMW
     bigDataUrl VD40.dvg.1000.bw
     graphType points
     alwaysZero on
     shortLabel VD40
     longLabel VD40 Divergence
-    type bigWig
     visibility full
     autoScale on
     color 255,165,0
