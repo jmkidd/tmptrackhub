@@ -98,3 +98,11 @@ type bigWig
 visibility full
 autoScale on
 color 0,0,0
+
+track Pendleton
+bigDataUrl Pendleton.bb
+shortLabel Pendleton
+longLabel Pendleton CDR
+type bigBed 3
+visibility hide
+itemRgb off
