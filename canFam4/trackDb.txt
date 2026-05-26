@@ -36,8 +36,8 @@ type bigWig
 container multiWig
 aggregate transparentOverlay
 showSubtrackColorOnUi on
-shortLabel Two BigWigs
-longLabel Plot showing two bigWig signals simultaneously
+shortLabel Wolf VD
+longLabel Wolf and VD Diversity
 visibility full
 
     track Wolf41dvg
@@ -63,6 +63,30 @@ visibility full
     visibility full
     autoScale on
     color 255,165,0
+
+
+track Wolf41dvg
+type bigWig
+bigDataUrl Wolf41.dvg.1000.bw
+graphType points
+alwaysZero on
+shortLabel Wolf41
+longLabel Wolf41 Divergence
+visibility full
+autoScale on
+color 255,0,0
+
+track VD40dvg
+type bigWig
+bigDataUrl VD40.dvg.1000.bw
+graphType points
+alwaysZero on
+shortLabel VD40
+longLabel VD40 Divergence
+visibility full
+autoScale on
+color 255,165,0
+
 
 track VD40_sel
 bigDataUrl VD40_vs_Wolf41.1000.bw
