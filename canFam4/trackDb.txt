@@ -114,3 +114,15 @@ longLabel VD40 Selected Regions
 type bigBed 3
 visibility hide
 itemRgb off
+
+track VD40_CDR
+bigDataUrl VD40_CDR.bb
+shortLabel VD40 CDR
+longLabel VD40 Candidate Domestication Regions
+type bigBed 4
+visibility hide
+itemRgb off
+
+
+
+
