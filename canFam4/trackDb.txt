@@ -106,3 +106,11 @@ longLabel Pendleton CDR
 type bigBed 3
 visibility hide
 itemRgb off
+
+track VD40sel
+bigDataUrl VD40_sel.bb
+shortLabel VD40 Regions
+longLabel VD40 Selected Regions
+type bigBed 3
+visibility hide
+itemRgb off
