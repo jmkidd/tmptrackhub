@@ -230,3 +230,30 @@ autoScale group
     autoScale on
     color 214, 39, 40
    
+
+track Sighthounds_sel
+bigDataUrl Sighthounds_vs_VD40.1000.bw
+graphType bar
+alwaysZero on
+shortLabel Sighthounds Selection
+longLabel Sighthounds Selection
+type bigWig
+visibility full
+autoScale on
+color 0, 0, 0
+
+track Sighthoundsdvg
+type bigWig
+bigDataUrl Sighthounds.dvg.1000.bw
+graphType points
+alwaysZero on
+shortLabel Sighthounds
+longLabel Sighthounds Divergence
+visibility full
+autoScale on
+color 0,0,255
+
+
+
+
+
