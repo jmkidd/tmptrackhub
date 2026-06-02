@@ -108,7 +108,7 @@ longLabel VD Africa Selection
 type bigWig
 visibility full
 autoScale on
-color 0,0,0
+color 31, 119, 180
 
 track CentralAsia_sel
 bigDataUrl VD40-CentralAsia_vs_VD40.1000.bw
@@ -119,7 +119,7 @@ longLabel VD CentralAsia Selection
 type bigWig
 visibility full
 autoScale on
-color 0,0,0
+color 255, 127, 14
 
 track EAP_sel
 bigDataUrl VD40-EAP_vs_VD40.1000.bw
@@ -130,7 +130,7 @@ longLabel VD EAP Selection
 type bigWig
 visibility full
 autoScale on
-color 0,0,0
+color 44, 160, 44
 
 track EastAsia_sel
 bigDataUrl VD40-EastAsia_vs_VD40.1000.bw
@@ -141,7 +141,7 @@ longLabel VD EastAsia Selection
 type bigWig
 visibility full
 autoScale on
-color 0,0,0
+color 214, 39, 40
 
 
 track Pendleton
@@ -170,4 +170,60 @@ itemRgb off
 
 
 
+track GlobalMW
+type bigWig
+container multiWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+shortLabel VD Geo
+longLabel Village Dog Geography
+visibility full
 
+    track VD40-Africa_join
+    type bigWig
+    parent GlobalMW
+    bigDataUrl VD40-Africa.dvg.1000.bw
+    graphType points
+    alwaysZero on
+    shortLabel VD40-Africa
+    longLabel VD40-Africa Divergence
+    visibility full
+    autoScale on
+    color 31, 119, 180
+
+    track VD40-CentralAsia_join
+    type bigWig
+    parent GlobalMW
+    bigDataUrl VD40-CentralAsia.dvg.1000.bw
+    graphType points
+    alwaysZero on
+    shortLabel VD40-CentralAsia
+    longLabel VD40-CentralAsia Divergence
+    visibility full
+    autoScale on
+    color 255, 127, 14
+    
+    track VD40-EAP_join
+    type bigWig
+    parent GlobalMW
+    bigDataUrl VD40-EAP.dvg.1000.bw
+    graphType points
+    alwaysZero on
+    shortLabel VD40-EAP
+    longLabel VD40-EAP Divergence
+    visibility full
+    autoScale on
+    color 44, 160, 44
+    
+    track VD40-EastAsia
+    type bigWig
+    parent GlobalMW
+    bigDataUrl VD40-EastAsia.dvg.1000.bw
+    graphType points
+    alwaysZero on
+    shortLabel VD40-EastAsia
+    longLabel VD40-EastAsia Divergence
+    visibility full
+    autoScale on
+    color 214, 39, 40
+   
