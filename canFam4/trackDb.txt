@@ -99,6 +99,51 @@ visibility full
 autoScale on
 color 0,0,0
 
+track Africa_sel
+bigDataUrl VD40-Africa_vs_VD40.1000.bw
+graphType bar
+alwaysZero on
+shortLabel VD Africa Selection
+longLabel VD Africa Selection
+type bigWig
+visibility full
+autoScale on
+color 0,0,0
+
+track CentralAsia_sel
+bigDataUrl VD40-CentralAsia_vs_VD40.1000.bw
+graphType bar
+alwaysZero on
+shortLabel VD CentralAsia Selection
+longLabel VD CentralAsia Selection
+type bigWig
+visibility full
+autoScale on
+color 0,0,0
+
+track EAP_sel
+bigDataUrl VD40-EAP_vs_VD40.1000.bw
+graphType bar
+alwaysZero on
+shortLabel VD EAP Selection
+longLabel VD EAP Selection
+type bigWig
+visibility full
+autoScale on
+color 0,0,0
+
+track EastAsia_sel
+bigDataUrl VD40-EastAsia_vs_VD40.1000.bw
+graphType bar
+alwaysZero on
+shortLabel VD EastAsia Selection
+longLabel VD EastAsia Selection
+type bigWig
+visibility full
+autoScale on
+color 0,0,0
+
+
 track Pendleton
 bigDataUrl Pendleton.bb
 shortLabel Pendleton
