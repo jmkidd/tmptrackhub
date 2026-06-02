@@ -39,6 +39,7 @@ showSubtrackColorOnUi on
 shortLabel Wolf VD
 longLabel Wolf and VD Diversity
 visibility full
+autoScale group
 
     track Wolf41dvg_join
     type bigWig
@@ -178,6 +179,8 @@ showSubtrackColorOnUi on
 shortLabel VD Geo
 longLabel Village Dog Geography
 visibility full
+autoScale group
+
 
     track VD40-Africa_join
     type bigWig
