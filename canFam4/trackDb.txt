@@ -189,22 +189,24 @@ itemRgb off
 track SNPs
 type bigWig
 bigDataUrl SNP_deltap.bw
-graphType points
+graphType bar
 alwaysZero on
 shortLabel SNPs
 longLabel SNPs delta-p
 visibility full
-autoScale on
+viewLimits 0:1
+autoScale off
 
 track SVs
 type bigWig
 bigDataUrl SV_deltap.bw
-graphType points
+graphType bar
 alwaysZero on
 shortLabel SVs
 longLabel SVs delta-p
 visibility full
-autoScale on
+viewLimits 0:1
+autoScale off
 
 
 
