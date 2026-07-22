@@ -169,7 +169,21 @@ type bigBed 4
 visibility hide
 itemRgb off
 
+track Enhancer_robust
+bigDataUrl Enhancer_robust.bb
+shortLabel Enhancer_robust
+longLabel Robust Enhancers
+type bigBed 3
+visibility hide
+itemRgb off
 
+track Enhancer_comp
+bigDataUrl Enhancer_comp.bb
+shortLabel Enhancer_comp
+longLabel Comprehensive Enhancers
+type bigBed 3
+visibility hide
+itemRgb off
 
 track GlobalMW
 type bigWig
@@ -252,8 +266,3 @@ longLabel Sighthounds Divergence
 visibility full
 autoScale on
 color 0,0,255
-
-
-
-
-
