@@ -185,6 +185,29 @@ type bigBed 3
 visibility hide
 itemRgb off
 
+
+track SNPs
+type bigWig
+bigDataUrl SNP_deltap.bw
+graphType points
+alwaysZero on
+shortLabel SNPs
+longLabel SNPs delta-p
+visibility full
+autoScale on
+
+track SVs
+type bigWig
+bigDataUrl SV_deltap.bw
+graphType points
+alwaysZero on
+shortLabel SVs
+longLabel SVs delta-p
+visibility full
+autoScale on
+
+
+
 track GlobalMW
 type bigWig
 container multiWig
