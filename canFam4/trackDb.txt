@@ -291,3 +291,15 @@ longLabel Sighthounds Divergence
 visibility full
 autoScale on
 color 0,0,255
+
+
+track Fst
+type bigWig
+bigDataUrl fst.bw
+graphType points
+alwaysZero on
+shortLabel Fst
+longLabel Fst
+visibility full
+autoScale on
+color 0,0,255
