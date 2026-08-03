@@ -354,7 +354,7 @@ itemRgb off
 track genes_long
 bigDataUrl bigGenePredEx4_long.bb
 shortLabel genes Example Hub
-longLabel longest gene
+longLabel Genes
 type bigGenePred
 visibility hide
 baseColorDefault genomicCodons
