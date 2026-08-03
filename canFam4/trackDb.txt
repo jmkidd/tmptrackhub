@@ -350,3 +350,11 @@ type bigBed 3
 visibility hide
 itemRgb off
 
+
+track genes_long
+bigDataUrl bigGenePredEx4_long.bb
+shortLabel genes Example Hub
+longLabel longest gene
+type bigGenePred
+visibility hide
+baseColorDefault genomicCodons
