@@ -144,15 +144,6 @@ visibility full
 autoScale on
 color 214, 39, 40
 
-
-track Pendleton
-bigDataUrl Pendleton.bb
-shortLabel Pendleton
-longLabel Pendleton CDR
-type bigBed 3
-visibility hide
-itemRgb off
-
 track VD40sel
 bigDataUrl VD40_sel.bb
 shortLabel VD40 Regions
@@ -292,7 +283,6 @@ visibility full
 autoScale on
 color 0,0,255
 
-
 track Fst
 type bigWig
 bigDataUrl fst.bw
@@ -303,3 +293,60 @@ longLabel Fst
 visibility full
 autoScale on
 color 0,0,255
+
+track OtherStudies
+bigDataUrl OtherStudies.bb
+shortLabel OtherStudies
+longLabel OtherStudies
+type bigBed 4
+visibility hide
+itemRgb off
+
+track Pendleton
+bigDataUrl Pendleton.bb
+shortLabel Pendleton
+longLabel Pendleton
+type bigBed 3
+visibility hide
+itemRgb off
+
+track Rees
+bigDataUrl Rees.bb
+shortLabel Rees
+longLabel Rees
+type bigBed 3
+visibility hide
+itemRgb off
+
+track Wang
+bigDataUrl Wang.bb
+shortLabel Wang
+longLabel Wang
+type bigBed 3
+visibility hide
+itemRgb off
+
+track Freedman
+bigDataUrl Freedman.bb
+shortLabel Freedman
+longLabel Freedman
+type bigBed 3
+visibility hide
+itemRgb off
+
+track Axelsson
+bigDataUrl Axelsson.bb
+shortLabel Axelsson
+longLabel Axelsson
+type bigBed 3
+visibility hide
+itemRgb off
+
+track Cagan
+bigDataUrl Cagan.bb
+shortLabel Cagan
+longLabel Cagan
+type bigBed 3
+visibility hide
+itemRgb off
+
